@@ -1,0 +1,112 @@
+[
+    {
+        "savol": "1. WORD matn muharririda ishlaganda qanday kengaytmali faylar xosil bo’ladi?",
+        "javoblar": {
+            "a": "*.txt",
+            "b": "**.doc",
+            "v": "*.mdb",
+            "g": "*.bmp"
+        },
+        "togri_javob": "b"
+    },
+    {
+        "savol": "2. MS Wordda faylni yangi nom bilan saqlash qanday amalga oshiriladi?",
+        "javoblar": {
+            "a": "Файл→Сохранить как",
+            "b": "Файл→Открыть",
+            "v": "Файл→Закрыть",
+            "g": "Файл→Печать"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "3. MS Wordda faylni ochish qanday amalga oshiriladi?",
+        "javoblar": {
+            "a": "Файл→Сохранить как",
+            "b": "Файл→Открыть",
+            "v": "Файл→Закрыть",
+            "g": "Файл→Печать"
+        },
+        "togri_javob": "b"
+    },
+    {
+        "savol": "4. MS Wordda faylni bosmaga chiqarish qanday amalga oshiriladi?",
+        "javoblar": {
+            "a": "Файл→Сохранить как",
+            "b": "Файл→Открыть",
+            "v": "Файл→Закрыть",
+            "g": "Файл→Печать"
+        },
+        "togri_javob": "d"
+    },
+    {
+        "savol": "5. MS Wordda faylni yopish qanday amalga oshiriladi?",
+        "javoblar": {
+            "a": "Файл→Сохранить как",
+            "b": "Файл→Открыть",
+            "v": "Файл→Закрыть",
+            "g": "Файл→Печать"
+        },
+        "togri_javob": "c"
+    },
+    {
+        "savol": "6. MS Wordda ma`lumotlarni bosmaga chiqarishda qaysi buyruq faylni to`liq bosmaga chiqaradi?",
+        "javoblar": {
+            "a": "Все",
+            "b": "Страницы",
+            "v": "Текущая",
+            "g": "To`g`ri javob berilmagan"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "7. MS Wordda ma`lumotlarni bosmaga chiqarishda qaysi buyruq faylni kursor turgan sahifasinigina bosmaga chiqaradi?",
+        "javoblar": {
+            "a": "Текущая",
+            "b": "Все",
+            "v": "Текущая",
+            "g": "To`g`ri javob berilmagan"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "8. Matn muharrirlariga qaysi programma kiradi?",
+        "javoblar": {
+            "a": "MS Word",
+            "b": "MS Excel",
+            "v": "MS Access",
+            "g": "MS PowerPoint"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "9. MS Wordda menyuning qaysi bo`limi orqali tahrirlash ishlari bajariladi?",
+        "javoblar": {
+            "a": "Правка",
+            "b": "Файл",
+            "v": "Вид",
+            "g": "Вставка"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "10. MS Wordda menyuning qaysi bo`limi orqali instrumentlar panelini olishimiz yoki qo`yishimiz mumkin?",
+        "javoblar": {
+            "a": "Вид",
+            "b": "Файл",
+            "v": "Правка",
+            "g": "Вставка"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "11. MS Wordda menyuning qaysi bo`limi sahifani nomerlash, faylga rasmlar qo`yish kabi vazifalarni bajaradi?",
+        "javoblar": {
+            "a": "Вставка",
+            "b": "Вид",
+            "v": "Файл",
+            "g": "Правка"
+        },
+        "togri_javob": "a"
+    }
+]

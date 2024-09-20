@@ -1,0 +1,92 @@
+[
+    {
+        "savol": "1. Masofadan o’qitish tizimi nima?",
+        "javoblar": {
+            "a": "oddiy kunduzgi o’qish",
+            "b": "sirdan o’qish",
+            "v": "internet tarmog’i orqali o’qish",
+            "g": "malaka oshirish tizimida o’qish"
+        },
+        "togri_javob": "v"
+    },
+    {
+        "savol": "2. Elektron darslik nima?",
+        "javoblar": {
+            "a": "maxsus tilda yozilgan darslik",
+            "b": "kompyuter texnologiyalari vositasida yozilgan darslik",
+            "v": "oddiy darslik",
+            "g": "bunday darslik yo’q"
+        },
+        "togri_javob": "b"
+    },
+    {
+        "savol": "3. Modem nima?",
+        "javoblar": {
+            "a": "kompyuterdan kompyuterga axborotni tarmoq orqali uzatish",
+            "b": "kompyuterdan kompyuterga axborotni telefon orqali uzatish",
+            "v": "axborotlarni kompakt disklarga yozuvchi qurilma",
+            "g": "axborotlarni xotiraga yozuvchi qurilma"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "4. Masofali ta’lim tizimining asosiy auditoriyasi kimlar?",
+        "javoblar": {
+            "a": "Oliy ta’lim muasassasi talabalari",
+            "b": "Akademik litsey talabalari",
+            "v": "Malaka oshiruvchi tinglovchilar",
+            "g": "Maktab o‘quvchilari"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "5. Masofali ta’lim jarayonini amalga oshirish bosqichlarini ko‘rsating.",
+        "javoblar": {
+            "a": "Tahlil, Loyihalashtirish, Joriy qilish, O‘quv kontentlarini yaratish, Ishga tushirish, Rivojlantirish",
+            "b": "Internetni ishlatish, Dars o’tish, Joriy qilish, O‘quv kontentlarini yaratish, Ishga tushirish, Rivojlantirish",
+            "v": "Kompyuter tarmog`ini yaratish, Dars o’tish, Joriy qilish, Ishga tushirish, Rivojlantirish",
+            "g": "barcha javoblar to`g`ri"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "6. CourseLab dasturi qanday dastur?",
+        "javoblar": {
+            "a": "Kuchli va ishlatish oson. Elektron darsliklar yaratish",
+            "b": "Kuzsiz va ishlatish qiyin. Elektron darsliklar yaratish",
+            "v": "Oddiy dastur. Elektron darsliklar yaratish",
+            "g": "Rasm joylash dasturi. Elektron darsliklar yaratish"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "7. Moodle LMS rasmiy saytini ko‘rsating?",
+        "javoblar": {
+            "a": "Moodle.org",
+            "b": "Moodle.ru",
+            "v": "Moodle.gov",
+            "g": "Moodle.com"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "8. Moodle - bu unga ta’rif?",
+        "javoblar": {
+            "a": "masofali ta’lim platformalaridan biri",
+            "b": "o‘qitish shakli",
+            "v": "o‘qitish texnologiyasi",
+            "g": "o‘rgatuvchi dastur"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "9. LMS tizimida yaratiladigan elektron ta’lim resurslari qaysi standartga mos bo‘lishi kerak?",
+        "javoblar": {
+            "a": "SCORM",
+            "b": "LMS",
+            "v": "SCOM",
+            "g": "CMS"
+        },
+        "togri_javob": "a"
+    }
+]

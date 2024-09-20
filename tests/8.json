@@ -1,0 +1,52 @@
+[
+    {
+        "savol": "1. Infografika bu …?",
+        "javoblar": {
+            "a": "axborotni taqdim etishning grafik usuli.",
+            "b": "axborotni matn koʻrinishida taqdim etish.",
+            "v": "axborotni jadval koʻrinishida taqdim etish.",
+            "g": "axborotni rasm koʻrinishida taqdim etish."
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "2. Statik infografika qanday ishlaydi?",
+        "javoblar": {
+            "a": "harakatsiz tasvirlar kabi ishlaydi.",
+            "b": "harakatli tasvirlar kabi ishlaydi.",
+            "v": "3D tasvirlar kabi ishlaydi.",
+            "g": "Tasvirlarni oddiy koʻrinishda koʻrsatadi."
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "3. Interaktiv infografika qanday ishlaydi?",
+        "javoblar": {
+            "a": "harakatli tasvirlar kabi ishlaydi.",
+            "b": "harakatsiz tasvirlar kabi ishlaydi.",
+            "v": "3D tasvirlar kabi ishlaydi.",
+            "g": "Tasvirlarni oddiy koʻrinishda koʻrsatadi."
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "4. Infografika qanday elementlardan iborat?",
+        "javoblar": {
+            "a": "Diagrammalar va grafiklar, faktlar va statistika, grafika, manba, matn.",
+            "b": "Diagrammalar va grafiklar, faktlar va statistika, jadval, matn.",
+            "v": "Faktlar va statistika, jadval, rasm, gif, film, manba, matn.",
+            "g": "Diagrammalar va grafiklar, klip, surat, video, manba, matn."
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "5. Infografikaning grafika elementidan qanday foydalanadi?",
+        "javoblar": {
+            "a": "Qoʻshimcha kontekst va estetik dizaynni taʼminlash uchun tasvirlar, illyustratsiyalar yoki boshqa vizual elementlardan foydalanadi.",
+            "b": "Oʻquvchilarga mazmun va kontekstni tushunishga yordam berish uchun hikoyani yuritish uchun faktlar va raqamlarga tayanadi.",
+            "v": "Aniq, raqamli ma'lumotlarni almashadigan infografika ma'lumotlarning qonuniyligini isbotlash va ularni tushunishni osonlashtirish uchun diagrammalar va grafiklarni oʻz ichiga olishi mumkin.",
+            "g": "Infografika kattaroq ma’lumotlar hikoyasining qismlarini etkazish uchun sarlavhalar, sarlavhalar, xiraliklar va raqamlardan foydalanadi."
+        },
+        "togri_javob": "a"
+    }
+]

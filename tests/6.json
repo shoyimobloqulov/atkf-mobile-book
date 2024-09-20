@@ -1,0 +1,102 @@
+[
+    {
+        "savol": "1. Internet nima?",
+        "javoblar": {
+            "a": "Lokal kompyuter tarmog’i",
+            "b": "Mahalliy tarmoq",
+            "v": "Jahon kompyuter tarmog’i",
+            "g": "Kompyuter ushun dastur"
+        },
+        "togri_javob": "v"
+    },
+    {
+        "savol": "2. Elektron poshta nima?",
+        "javoblar": {
+            "a": "Aloqa tizimi ushun dastur",
+            "b": "Kompyuter ushun aloqa tizimi",
+            "v": "Ma’lumotlarni qabul qiluvshi va uzatuvshi dastur",
+            "g": "Mahalliy tarmoq"
+        },
+        "togri_javob": "v"
+    },
+    {
+        "savol": "3. Modem nima?",
+        "javoblar": {
+            "a": "kompyuterdan kompyuterga axborotni tarmoq orqali uzatish",
+            "b": "kompyuterdan kompyuterga axborotni telefon orqali uzatish",
+            "v": "axborotlarni kompakt disklarga yozuvchi qurilma",
+            "g": "axborotlarni xotiraga yozuvchi qurilma"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "4. Web-sayt nima?",
+        "javoblar": {
+            "a": "Bir qancha web-sahifalarning mantiqiy birlashmasi",
+            "b": "Internet tarmog‘i",
+            "v": "Elektron pochta",
+            "g": "Internet uchun maxsus dastur"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "5. Web-server nima?",
+        "javoblar": {
+            "a": "Tarmoqqa ulangan kompyuter yoki undagi dastur hisoblanib, umumiy resurslarni mijozga taqdim etish yoki ularni boshqarish vazifalarini bajaradi.",
+            "b": "Tarmoqqa ulangan kompyuterlar to‘plami hisoblanib, umumiy taqsimlovchi vazifalarini bajaradi",
+            "v": "Tarmoqqa ulangan kompyuterlarni elektron tizimda boshqarish vazifalarini bajaradi",
+            "g": "Internet uchun maxsus dastur hisoblanadi"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "6. World Wide Web (WWW) nima?",
+        "javoblar": {
+            "a": "bu mijoz-server texnologiyasi asosida tashkil etilgan, keng tarqalgan Internet xizmatidir",
+            "b": "bu mijoz-server texnologiyasi asosida tashkil etilgan, elektron pochta xizmatidir",
+            "v": "bu mijoz-server texnologiyasi asosida tashkil etilgan, kompyuterlar xizmatidir",
+            "g": "Internet uchun maxsus dasturdir."
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "7. Web-sahifa nima?",
+        "javoblar": {
+            "a": "O‘zining unikal manziliga ega bo‘lgan va maxsus ko‘rish dasturi yordamida (brauzer) ko‘riluvchi hujjat.",
+            "b": "Internet tarmog‘i manziliga ega bo‘lgan va maxsus dasturi.",
+            "v": "Elektron pochta",
+            "g": "Internet uchun maxsus dastur"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "8. Internetdan foydalanish ushun qanday dasturni ishga tushirish kerak?",
+        "javoblar": {
+            "a": "Misrosoft Word",
+            "b": "Misrosoft Exsel",
+            "v": "Misrosoft Power Point",
+            "g": "Internet Explorer"
+        },
+        "togri_javob": "g"
+    },
+    {
+        "savol": "9. Tarmoqdagi axborotga masofadan bo‘ladigan namunaviy hujumlar.",
+        "javoblar": {
+            "a": "Tarmoq trafigini tahlillash",
+            "b": "Servisni tuxtatilishi",
+            "v": "Xizmat qilishdan voz kechishga undaydigan hujumlar",
+            "g": "a va c"
+        },
+        "togri_javob": "g"
+    },
+    {
+        "savol": "10. Internetga kirishni ta’minlab turuvchi xizmat turi nima deb ataladi?",
+        "javoblar": {
+            "a": "Protokol",
+            "b": "Internet",
+            "v": "Server",
+            "g": "Provayder"
+        },
+        "togri_javob": "g"
+    }
+]

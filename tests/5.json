@@ -1,0 +1,152 @@
+[
+    {
+        "savol": "1. Kompyuter grafikasi necha turga bo’linadi?",
+        "javoblar": {
+            "a": "2 turga",
+            "b": "3 turga",
+            "v": "8 turga",
+            "g": "turga ajratilmaydi"
+        },
+        "togri_javob": "b"
+    },
+    {
+        "savol": "2. Rastrli grafikada tasvirlar……….?",
+        "javoblar": {
+            "a": "nukta(piksel)lar yordamida tashkil etildai",
+            "b": "vergullar yordamida tashkil etiladi",
+            "v": "nukta va vergullar yordamida tashkil etiladi",
+            "g": "chiziklardan yordamida tashkil topadi"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "3. Vektorli grafikada tasvirlar……..?",
+        "javoblar": {
+            "a": "nukta(piksel)lar yordamida tashkil etildai",
+            "b": "vergullar yordamida tashkil etiladi",
+            "v": "nukta va vergullar yordamida tashkil etiladi",
+            "g": "chiziklardan yordamida tashkil topadi"
+        },
+        "togri_javob": "g"
+    },
+    {
+        "savol": "4. Raqamli tasvirlarning ko’rinishlari berilgan javobni aniqlang?",
+        "javoblar": {
+            "a": "rastrli, statik",
+            "b": "rastrli, vektorli",
+            "v": "vektorli, statik",
+            "g": "rastrli, vektorli, statik"
+        },
+        "togri_javob": "b"
+    },
+    {
+        "savol": "5. Rastrli grafikada tasvir tashkil etuvchilari berilgan javoni aniqlang?",
+        "javoblar": {
+            "a": "nuqta",
+            "b": "chiziq",
+            "v": "to’g’ri chiziq",
+            "g": "to’rtburchak"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "6. Vektorli grafikada tasvir tashkil etuvchilari berilgan javoni aniqlang?",
+        "javoblar": {
+            "a": "elementar geometrik figuralar",
+            "b": "egri chiziq",
+            "v": "to’g’ri chiziq",
+            "g": "barcha javoblar to’g’ri"
+        },
+        "togri_javob": "g"
+    },
+    {
+        "savol": "7. Rastrli grafika hosil qilish dasturlarini aniqlang?",
+        "javoblar": {
+            "a": "Adobe Photoshop, Corel Draw",
+            "b": "Adobe Photoshop, Paint",
+            "v": "Corel Draw, Maya",
+            "g": "Flash, Corel Draw"
+        },
+        "togri_javob": "b"
+    },
+    {
+        "savol": "8. Vektorli grafika hosil qilish dasturlarini aniqlang?",
+        "javoblar": {
+            "a": "Adobe Photoshop, Corel Draw",
+            "b": "Adobe Photoshop, Paint",
+            "v": "Paint, Corel Draw, Maya",
+            "g": "Flash, Corel Draw"
+        },
+        "togri_javob": "g"
+    },
+    {
+        "savol": "9. Photoshop dasturida tashqi fayllarni import (qabul) qilish menyuning qaysi bandi orqali amalga oshiriladi?",
+        "javoblar": {
+            "a": "Fayl (Fayl)",
+            "b": "Ko’rinish(Vid)",
+            "v": "Qatlamlar bilan ishlash (Sloi)",
+            "g": "Tasvir bilan ishlash (Izobrajeniye)"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "10. Photoshop dasturida tasvir o’lchamini o’zgartirish menyuning qaysi bandi orqali amalga oshiriladi?",
+        "javoblar": {
+            "a": "Fayl (Fayl)",
+            "b": "Ko’rinish(Vid)",
+            "v": "Qatlamlar bilan ishlash (Sloi)",
+            "g": "Tasvir bilan ishlash (Izobrajeniye)"
+        },
+        "togri_javob": "g"
+    },
+    {
+        "savol": "11. Photoshop dasturida tasvir qatlamlarini birlashtirish menyuning qaysi bandi orqali amalga oshiriladi?",
+        "javoblar": {
+            "a": "Fayl (Fayl)",
+            "b": "Ko’rinish(Vid)",
+            "v": "Qatlamlar bilan ishlash (Sloi)",
+            "g": "Tasvir bilan ishlash (Izobrajeniye)"
+        },
+        "togri_javob": "v"
+    },
+    {
+        "savol": "12. Photoshop dasturida tasvir ranglarini to’g’rilash menyuning qaysi bandi orqali amalga oshiriladi?",
+        "javoblar": {
+            "a": "Fayl (Fayl)",
+            "b": "Ko’rinish(Vid)",
+            "v": "Qatlamlar bilan ishlash (Sloi)",
+            "g": "Tasvir bilan ishlash (Izobrajeniye)"
+        },
+        "togri_javob": "g"
+    },
+    {
+        "savol": "13. Photoshop dasturida tasvir qismlarini belgilash menyuning qaysi bandi orqali amalga oshiriladi?",
+        "javoblar": {
+            "a": "Belgilash (Videleniye)",
+            "b": "Ko’rinish(Vid)",
+            "v": "Qatlamlar bilan ishlash (Sloi)",
+            "g": "Tasvir bilan ishlash (Izobrajeniye)"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "14. Photoshop dasturida tasvirga turli effektlar qo’llash menyuning qaysi bandi orqali amalga oshiriladi?",
+        "javoblar": {
+            "a": "Belgilash (Videleniye)",
+            "b": "Filtr(Filtr)",
+            "v": "Qatlamlar bilan ishlash (Sloi)",
+            "g": "Tasvir bilan ishlash (Izobrajeniye)"
+        },
+        "togri_javob": "b"
+    },
+    {
+        "savol": "15. Photoshop dasturida amallar ketma-ketligini avtomatlashtirish qaysi buyruq yordamida amalga oshiriladi?",
+        "javoblar": {
+            "a": "Navigator(Navigator) palitrasi yordamida",
+            "b": "Kanallar (Kanali) palitrasi yordamida",
+            "v": "Qatlamlar (Sloi) palitrasi yordamida",
+            "g": "Amallar (Operatsii) palitrasi yordamida"
+        },
+        "togri_javob": "g"
+    }
+]

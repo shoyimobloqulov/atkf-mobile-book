@@ -1,0 +1,132 @@
+[
+    {
+        "savol": "1. Pedagogik dasturiy vosita (PDV) lar – bu?",
+        "javoblar": {
+            "a": "kompyuter texnologiyalari yordamida oʻquv jarayonini qisman yoki toʻliq avtomatlashtirish uchun moʻljallangan didaktik vosita hisoblanadi;",
+            "b": "kompyuter texnologiyalari yordamida oʻquv jarayonini qisman yoki toʻliq rasmiylashtirish uchun moʻljallangan didaktik vosita hisoblanadi;",
+            "v": "kompyuter texnologiyalari yordamisiz oʻquv jarayonini qisman yoki toʻliq avtomatlashtirish uchun moʻljallangan didaktik vosita hisoblanadi;",
+            "g": "kompyuter texnologiyalari yordamisiz oʻquv jarayonini qisman yoki toʻliq rasmiylashtirish uchun moʻljallangan didaktik vosita hisoblanadi;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "2. Pedagogik dasturiy vositalar tarkibi nimalrdan iborat?",
+        "javoblar": {
+            "a": "oʻquv fani boʻyicha aniq didaktik maqsadlarga erishishga yoʻnaltirilgan dasturiy mahsulot kiradi;",
+            "b": "oʻquv fani boʻyicha noaniqlikka erishishga yoʻnaltirilgan dasturiy mahsulot kiradi;",
+            "v": "oʻquv fani boʻyicha aniq didaktik maqsadlarga erishishga yoʻnaltirilgan qog’ozli hujjatlar kiradi;",
+            "g": "oʻquv fani boʻyicha noaniqlikka erishishga yoʻnaltirilgan qog’ozli hujjatlar kiradi;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "3. Pedagogik dasturiy vositalarni quyidagilarga ajratish mumkin?",
+        "javoblar": {
+            "a": "oʻrgatuvchi va test dasturlari, mashq qildirgichlar hamda Virtual borliq tizimlari;",
+            "b": "oʻrgatuvchi dasturlari;",
+            "v": "test dasturlari;",
+            "g": "mashq qildirgichlar;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "4. Oʻrgatuvchi dasturlar – bu?",
+        "javoblar": {
+            "a": "oʻquvchilarning bilim darajasi va qiziqishlaridan kelib chiqib yangi bilimlarni oʻzlashtirishga yoʻnaltiradi;",
+            "b": "egallangan bilim, malaka va koʻnikmalarni tekshirish yoki baholash maqsadlarida qoʻllaniladi;",
+            "v": "avval oʻzlashtirilgan oʻquv materialini takrorlash va mustahkamlashga xizmat qiladi;",
+            "g": "oʻqituvchi ishtirokidagi virtual oʻquv muhitini shakllantiruvchi dasturlar;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "5. Test dasturlari – bu?",
+        "javoblar": {
+            "a": "egallangan bilim, malaka va koʻnikmalarni tekshirish yoki baholash maqsadlarida qoʻllaniladi;",
+            "b": "avval oʻzlashtirilgan oʻquv materialini takrorlash va mustahkamlashga xizmat qiladi;",
+            "v": "oʻqituvchi ishtirokidagi virtual oʻquv muhitini shakllantiruvchi dasturlar;",
+            "g": "oʻquvchilarning bilim darajasi va qiziqishlaridan kelib chiqib yangi bilimlarni oʻzlashtirishga yoʻnaltiradi;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "6. mashq bajartirish – bu?",
+        "javoblar": {
+            "a": "avval oʻzlashtirilgan oʻquv materialini takrorlash va mustahkamlashga xizmat qiladi;",
+            "b": "oʻqituvchi ishtirokidagi virtual oʻquv muhitini shakllantiruvchi dasturlar;",
+            "v": "oʻquvchilarning bilim darajasi va qiziqishlaridan kelib chiqib yangi bilimlarni oʻzlashtirishga yoʻnaltiradi;",
+            "g": "egallangan bilim, malaka va koʻnikmalarni tekshirish yoki baholash maqsadlarida qoʻllaniladi;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "7. Oʻquv jarayonida oʻqituvchilarni pedagogik dasturiy vositalardan foydalanishi asosan nechta imkoniyatlarni yaratadi?",
+        "javoblar": {
+            "a": "8 ta;",
+            "b": "6 ta;",
+            "v": "10 ta;",
+            "g": "4 ta;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "8. iSpring Suite dasturi qaysi dasturlardan iborat?",
+        "javoblar": {
+            "a": "iSpring Pro, iSpring QuizMaker va iSpring Kinetics;",
+            "b": "iSpring Pro, iSpring JMatch va iSpring Kinetics;",
+            "v": "iSpring Pro, iSpring QuizMaker va iSpring JMatch;",
+            "g": "iSpring JMatch, iSpring QuizMaker va iSpring Kinetics;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "9. AutoPlay dasturi ishga tushirilgandan so’ng muloqot oynasida qanday takliflar ilgari suriladi?",
+        "javoblar": {
+            "a": "Create a new project (Yangi loyixa yaratish); Open an existing project (Yaratilgan loyixalardan birini ochish); Restore last open project (Oxirgi ishlangan loyixani ochish); Exit AutoPlay Media Studio (Dasturdan chikish);",
+            "b": "Restore last open project (Oxirgi ishlangan loyixani ochish); Exit AutoPlay Media Studio (Dasturdan chikish);",
+            "v": "Create a new project (Yangi loyixa yaratish); Open an existing project (Yaratilgan loyixalardan birini ochish);",
+            "g": "Create a new project (Yangi loyixa yaratish);"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "10. “Create a new project” taklifi kanday vazifani bajaradi?",
+        "javoblar": {
+            "a": "Yangi loyixa yaratish;",
+            "b": "Yaratilgan loyixalardan birini ochish;",
+            "v": "Oxirgi ishlangan loyixani ochish;",
+            "g": "Dasturdan chikish;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "11. AutoPlay dasturi qanday dasturlar turkumiga kiradi?",
+        "javoblar": {
+            "a": "Web- sahifa va elektron ta’lim resurslari tayyorlashga mo’ljallangan dastur;",
+            "b": "Slayd shou yaratish mumkin bulgan dastur;",
+            "v": "Web-sahifa yaratishga mo’ljallangan dastur;",
+            "g": "Matn va jadvallar bilan ishlovchi dastur;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "12. AutoPlay dastur oynasi qanday tuzilmaga ega?",
+        "javoblar": {
+            "a": "Dastur oynasining sarlavha satri, dastur oynasining menyu satri, instrumentlar paneli satri, Project Explorer mulokot oynasi, Properties mulokot oynasi, xolat satri;",
+            "b": "Dastur oynasining menyu satri, instrumentlar paneli satri, Project Explorer mulokot oynasi;",
+            "v": "Project Explorer, Properties mulokot oynalari;",
+            "g": "Properties mulokot oynasi;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "13. Dastur oynasining menyu satrida qanday menyular joylashgan?",
+        "javoblar": {
+            "a": "File, Tools, Edit, Publish, Align, Page, Object, Project, View, Help;",
+            "b": "File, Tools, Edit, Publish, Align;",
+            "v": "Object, Project, View, Help;",
+            "g": "Tools, Edit, Publish, Align, Page, Object;"
+        },
+        "togri_javob": "a"
+    }
+]

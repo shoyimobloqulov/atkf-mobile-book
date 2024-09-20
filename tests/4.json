@@ -1,0 +1,202 @@
+[
+    {
+        "savol": "1. Taqdimot (inglizcha presentation so’zidan olingan) – so’zini tari’flang?",
+        "javoblar": {
+            "a": "audiovizual vositalardan foydalanib ko’rgazmali shaklda ma’lumot taqdim etish shakli;",
+            "b": "videovizual vositalardan foydalanib ko’rgazmali shaklda ma’lumot taqdim etish shakli;",
+            "v": "tovushli vositalardan foydalanib ko’rgazmali shaklda ma’lumot taqdim etish shakli;",
+            "g": "matnli vositalardan foydalanib ko’rgazmali shaklda ma’lumot taqdim etish shakli;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "2. Multimediali taqdimot – nima?",
+        "javoblar": {
+            "a": "bugungi kunda axborot taqdim etishning yagona va eng zamonaviy shakli hisoblanadi;",
+            "b": "bugungi kunda dars o’tishning yagona va eng zamonaviy shakli hisoblanadi;",
+            "v": "o’tgan zamonda axborot taqdim etishning yagona va eng zamonaviy shakli hisoblanardi;",
+            "g": "o’tgan zamonda xabar taqdim etishning yagona va eng zamonaviy shakli hisoblanadi;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "3. Power Pointda yaratilgan fayl qanday kengaytmali fayl hisoblanadi?",
+        "javoblar": {
+            "a": "ppt;",
+            "b": "doc;",
+            "v": "exe;",
+            "g": "pptx;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "4. Power Point taqdimot yaratishga moʻljallangan dastur boʻlib qaysi dastur paketiga kiradi?",
+        "javoblar": {
+            "a": "Microsoft Office paketi tarkibidagi dastur hisoblanadi;",
+            "b": "Microsoft Word paketi tarkibidagi dastur hisoblanadi;",
+            "v": "Microsoft Excel paketi tarkibidagi dastur hisoblanadi;",
+            "g": "Microsoft Access paketi tarkibidagi dastur hisoblanadi;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "5. Taqdimot (Prezentatsiya) – bu?",
+        "javoblar": {
+            "a": "slaydlar ketma-ketligi;",
+            "b": "rasmlar ketma-ketligi;",
+            "v": "videolar ketma-ketligi;",
+            "g": "darslar ketma-ketligi;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "6. Oʻzida matn, grafik, rasm, jadval, ovoz va boshqa animatsiya samaralarini mujassam etgan taqdimot varagʻi bu nima deyiladi?",
+        "javoblar": {
+            "a": "Slayd;",
+            "b": "video;",
+            "v": "avdio;",
+            "g": "hujjat;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "7. Power Point oynasining asosiy elementlari qaysilar?",
+        "javoblar": {
+            "a": "Sarlavha satri, Menyu satri, Asboblar paneli, Ishchi soha, Holatlar satri;",
+            "b": "Sarlavha satri, Menyu satri;",
+            "v": "Asboblar paneli, Ishchi soha;",
+            "g": "Ishchi soha, Holatlar satri;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "8. Sarlavha satri – bu?",
+        "javoblar": {
+            "a": "Satrda sistemali menyu tugmasi, dastur va fayl nomi hamda oynani boshqarish tugmalari oʻrin olgan;",
+            "b": "Sarlavha satridan keyin menyu qatori joylashib, unda dasturda foydalanish mumkin boʻlgan barcha buyruqlar keltirilgan;",
+            "v": "Bu panellarda eng koʻp ishlatiladigan buyruqlar piktogrammalar shaklida joylashtirilgan;",
+            "g": "Bu ish obyekti hisoblanib, slaydni hosil qiladi;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "9. Menyu satri – bu?",
+        "javoblar": {
+            "a": "Sarlavha satridan keyin menyu qatori joylashib, unda dasturda foydalanish mumkin boʻlgan barcha buyruqlar keltirilgan;",
+            "b": "Satrda sistemali menyu tugmasi, dastur va fayl nomi hamda oynani boshqarish tugmalari oʻrin olgan;",
+            "v": "Bu panellarda eng koʻp ishlatiladigan buyruqlar piktogrammalar shaklida joylashtirilgan;",
+            "g": "Bu ish obyekti hisoblanib, slaydni hosil qiladi;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "10. Asboblar paneli – bu?",
+        "javoblar": {
+            "a": "Bu panellarda eng koʻp ishlatiladigan buyruqlar piktogrammalar shaklida joylashtirilgan;",
+            "b": "Bu ish obyekti hisoblanib, slaydni hosil qiladi;",
+            "v": "Sarlavha satridan keyin menyu qatori joylashib, unda dasturda foydalanish mumkin boʻlgan barcha buyruqlar keltirilgan;",
+            "g": "Satrda sistemali menyu tugmasi, dastur va fayl nomi hamda oynani boshqarish tugmalari oʻrin olgan;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "11. Ishchi soha – bu?",
+        "javoblar": {
+            "a": "Bu ish obyekti hisoblanib, slaydni hosil qiladi;",
+            "b": "Bu panellarda eng koʻp ishlatiladigan buyruqlar piktogrammalar shaklida joylashtirilgan;",
+            "v": "Sarlavha satridan keyin menyu qatori joylashib, unda dasturda foydalanish mumkin boʻlgan barcha buyruqlar keltirilgan;",
+            "g": "Satrda sistemali menyu tugmasi, dastur va fayl nomi hamda oynani boshqarish tugmalari oʻrin olgan;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "12. Holatlar satri – bu?",
+        "javoblar": {
+            "a": "Bu satrda bajarilayotgan ishlar toʻgʻrisida ma’lumotlar berib borilishi bilan birga ba’zi tugmalar holati aks etadi;",
+            "b": "Bu panellarda eng koʻp ishlatiladigan buyruqlar piktogrammalar shaklida joylashtirilgan;",
+            "v": "Sarlavha satridan keyin menyu qatori joylashib, unda dasturda foydalanish mumkin boʻlgan barcha buyruqlar keltirilgan;",
+            "g": "Satrda sistemali menyu tugmasi, dastur va fayl nomi hamda oynani boshqarish tugmalari oʻrin olgan;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "13. Power Point dasturida taqdimot yaratish jarayoni shartli ravishda nechchi bosqichga boʻlinadi?",
+        "javoblar": {
+            "a": "ikki;",
+            "b": "uch;",
+            "v": "to’rt;",
+            "g": "besh;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "14. “Glavnaya” va “Vstavka” menyusining qaysi buyrugʻi orqali taqdimotga yangi slayd qoʻshish mumkin?",
+        "javoblar": {
+            "a": "“Sazdat slayd”;",
+            "b": "“Razmetka slayd”;",
+            "v": "“Tekuhe slayd”;",
+            "g": "“Titulno’y slayd”;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "15. Slaydga biror rangdagi fon berish uchun Format menyusining qaysi buyrugʻi bosiladi?",
+        "javoblar": {
+            "a": "“Fon”;",
+            "b": "“Tsvet”;",
+            "v": "“Okno”;",
+            "g": "“Effekt”;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "16. Slaydlarga tayyor rang va bezakli shablonlarni qoʻllash uchun Format menyusining qaysi buyrugʻi bosiladi?",
+        "javoblar": {
+            "a": "“Oformlenie slayda”;",
+            "b": "“Sazdat slayd”;",
+            "v": "“Razmetka slayd”;",
+            "g": "“Tekuhe slayd”;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "17. Format menyusining “Oformlenie slayda” buyrugʻi bosilganda ekranning oʻng tomonida qaysi paneli ochiladi?",
+        "javoblar": {
+            "a": "“Shabloni oformleniya”;",
+            "b": "“Sazdat slayd”;",
+            "v": "“Razmetka slayd”;",
+            "g": "“Tekuhe slayd”;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "18. Taqdimotda animatsiyalar qaysi menyusining buyruqlari orqali hosil qilinadi?",
+        "javoblar": {
+            "a": "“Pokaz slaydov”;",
+            "b": "“Effekti animasii”;",
+            "v": "“Glavnaya”;",
+            "g": "“Vstavka”;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "19. Qaysi buyrugʻi orqali slaydlarga tayyor formatdagi animatsiyalarini qoʻllash mumkin?",
+        "javoblar": {
+            "a": "“Effekti animasii”;",
+            "b": "“Pokaz slaydov”;",
+            "v": "“Glavnaya”;",
+            "g": "“Vstavka”;"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "20. “Nastroyka animatsii” oynasidagi qaysi buyruqlari orqali slaydning chiqish kelish parametri va tezligini oʻzgartirish mumkin?",
+        "javoblar": {
+            "a": "“Nachalo” va “Skorost”;",
+            "b": "“Pokaz slaydov”;",
+            "v": "“Effekti animasii”;",
+            "g": "“Smena slaydov”;"
+        },
+        "togri_javob": "a"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "savol": "1. Elektron jadvallarga qaysi dastur kiradi?",
+        "javoblar": {
+            "a": "MS Excel",
+            "b": "MS Word",
+            "v": "MS Access",
+            "g": "MS PowerPoint"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "2. Excelda tashkil qilingan fayllar avtomatik ravishda qanday nomlanadi?",
+        "javoblar": {
+            "a": "dokument 1, dokument2,. . .",
+            "b": "kniga1, kniga2,. . .",
+            "v": "dbs1, dbs2. . .",
+            "g": "bmp1, Bmp2, . . ."
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "3. Excelda qanday kengaytmali fayllar hosil qilinadi?",
+        "javoblar": {
+            "a": "*.txt",
+            "b": "*.doc",
+            "v": "**.xls",
+            "g": "*.bmp"
+        },
+        "togri_javob": "v"
+    },
+    {
+        "savol": "4. MS Excelda qanday ishlar bajariladi?",
+        "javoblar": {
+            "a": "Hisob-kitob ishlari bajariladi",
+            "b": "Ma’lumotlar bazasi bilan ishlanadi",
+            "v": "Matnlar bilan ishlanadi",
+            "g": "Barchasi to`g`ri"
+        },
+        "togri_javob": "g"
+    },
+    {
+        "savol": "5. MS Excelda yacheka qanday nomlanadi?",
+        "javoblar": {
+            "a": "Ustun harflari va satr raqamlari yordamida",
+            "b": "Satr nomeri va ustun harflari yordamida",
+            "v": "Ustun harflari yordamida",
+            "g": "satr raqamlari yordamida"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "6. MS Excelda =(625+25)/10 amalini bajarganda natija nechaga teng bo`ladi?",
+        "javoblar": {
+            "a": "65",
+            "b": "63",
+            "v": "64",
+            "g": "66"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "7. MS Excelda =(25+45)/5 amalini bajarganda natija nechaga teng bo`ladi?",
+        "javoblar": {
+            "a": "14",
+            "b": "11",
+            "v": "12",
+            "g": "13"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "8. MS Excelda kiritilgan ma`lumotlarni alifbo bo`yicha tartiblash uchun menyuning qaysi bo`limiga murojaat qilamiz?",
+        "javoblar": {
+            "a": "Данные",
+            "b": "Сервис",
+            "v": "Формат",
+            "g": "Справка"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "9. MS Excelda yacheyka, satr yoki ustunlarning o`lchamlari menyuning qaysi bo`limi yordamida o`zgartiriladi?",
+        "javoblar": {
+            "a": "Формат",
+            "b": "Сервис",
+            "v": "Данные",
+            "g": "Справка"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "10. MS Excelda funksiya bilan ishlashda menyuning qaysi bo`limiga murojaat qilamiz?",
+        "javoblar": {
+            "a": "Вставка",
+            "b": "Сервис",
+            "v": "Данные",
+            "g": "Формат"
+        },
+        "togri_javob": "a"
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "savol": "1. “Bulut” nima?",
+        "javoblar": {
+            "a": "ichida yashiringan koʻplab texnik tafsilotlarga ega boʻlgan murakkab infratuzilma",
+            "b": "ichida koʻplab ma’lumotlarga ega tizim",
+            "v": "ma’lumotlar ombori",
+            "g": "alohida operatsion tizim"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "2. Bulut nechta xizmat modelini oʻz ichiga oladi?",
+        "javoblar": {
+            "a": "3 ta",
+            "b": "2 ta",
+            "v": "5 ta",
+            "g": "4 ta"
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "3. Bulut nechta joylashtirish modelini oʻz ichiga oladi?",
+        "javoblar": {
+            "a": "4 ta",
+            "b": "2 ta",
+            "v": "5 ta",
+            "g": "3 ta"
+        },
+        "togri_javob": "g"
+    },
+    {
+        "savol": "4. Shaxsiy bulut bu …………",
+        "javoblar": {
+            "a": "bu bir nechta iste’molchilarni (masalan, bitta tashkilotning boʻlinmalarini) oʻz ichiga olgan bitta tashkilot tomonidan foydalanish uchun moʻljallangan infratuzilmadir.",
+            "b": "bu noyuq obyektlar boʻlib, lekin standartlashtirilgan yoki shaxsiy ma’lumotlar uzatish texnologiyalari va ilovalari bilan oʻzaro bogʻlangan ikki yoki undan ortiq turli xil bulutli infratuzilmalarning (xususiy, ommaviy) kombinatsiyasidir.",
+            "v": "bu keng jamoatchilik tomonidan bepul foydalanish uchun moʻljallangan infratuzilma",
+            "g": "bu umumiy vazifalarga ega boʻlgan tashkilotlarning ma’lum bir iste’molchilar jamoasi tomonidan foydalanish uchun moʻljallangan infratuzilma turi."
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "5. Ommaviy bulut (public cloud) bu……..",
+        "javoblar": {
+            "a": "bu keng jamoatchilik tomonidan bepul foydalanish uchun moʻljallangan infratuzilma",
+            "b": "bu bir nechta iste’molchilarni (masalan, bitta tashkilotning boʻlinmalarini) oʻz ichiga olgan bitta tashkilot tomonidan foydalanish uchun moʻljallangan infratuzilmadir.",
+            "v": "bu noyuq obyektlar boʻlib, lekin standartlashtirilgan yoki shaxsiy ma’lumotlar uzatish texnologiyalari va ilovalari bilan oʻzaro bogʻlangan ikki yoki undan ortiq turli xil bulutli infratuzilmalarning (xususiy, ommaviy) kombinatsiyasidir.",
+            "g": "bu umumiy vazifalarga ega boʻlgan tashkilotlarning ma’lum bir iste’molchilar jamoasi tomonidan foydalanish uchun moʻljallangan infratuzilma turi."
+        },
+        "togri_javob": "a"
+    }
+]

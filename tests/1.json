@@ -1,0 +1,102 @@
+[
+    {
+        "savol": "1. Axborot-kommunikatsiya texnologiyalarining ta’lim jarayoniga joriy etilishidan asosiy maqsad - .....",
+        "javoblar": {
+            "a": "zamonaviy axborot muhiti uchun xarakterli bo‘lgan o‘quv faoliyatlarining yangi turlarini paydo bo‘lishidir.",
+            "b": "O‘quvchining xotirasida u yoki bu hodisa, jarayonning obrazli ifodalash.",
+            "v": "Kompyuter savodxonligini oshirish.",
+            "g": "kompyuter bilan ishlash ko‘nikmalarini oshirish."
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "2. «Axborot texnologiyalari» iborasidagi axborot so`ziga ta’rif bering.",
+        "javoblar": {
+            "a": "Axborot - lotincha informatio so`zidan olingan bo`lib, tushuntirish, biror narsani bayon qilish yoki biror narsa yoki hodisa haqidagi ma`lumot ma`nosini anglatadi.",
+            "b": "Axborot - lotincha informatio so`zidan olingan bo`lib, qayd etish, biror narsani yetkazish yoki biror narsa yoki hodisa haqidagi voqea  ma`nosini anglatadi.",
+            "v": "Axborot - lotincha informatio so`zidan olingan bo`lib, almashtirish, biror narsani ko`rsatish  ma`nosini anglatadi.",
+            "g": "a va b javoblar to`g`ri."
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "3. «Axborot texnologiyalari» iborasidagi texnologiya so`ziga ta’rif bering.",
+        "javoblar": {
+            "a": "«texnologiya» so’zi lotincha «thexnos» - san’at, hunar, soha va «logos» — fan degan ma’noni bildiradi.",
+            "b": "«texnologiya» so’zi lotincha «thexnos» - texnika, mashina va «logos» — qoida degan ma’noni bildiradi.",
+            "v": "«texnologiya» so’zi lotincha «thexnos» - usul, loyiha va «logos» — reja degan ma’noni bildiradi.",
+            "g": "barcha javoblar noto`g`ri."
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "4. Axborotlarni yig’ish, saqlash, uzatish, qayta ishlash usul va vositalari majmui bu …",
+        "javoblar": {
+            "a": "Axborot texnologiyalari.",
+            "b": "Axborot majmui.",
+            "v": "Axborot bazasi.",
+            "g": "Kompyuter texnologiyalari."
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "5. Axborot texnologiyasining vujudga kelishi va rivojlanishini  belgilovchi nechta omil mavjud?",
+        "javoblar": {
+            "a": "1 ta.",
+            "b": "2 ta.",
+            "v": "3 ta.",
+            "g": "5 ta."
+        },
+        "togri_javob": "b"
+    },
+    {
+        "savol": "6. Axborot texnologiyalari hozirgi vaqtga qadar necha bosqichlarni bosib o’tgan?",
+        "javoblar": {
+            "a": "1 ta.",
+            "b": "2 ta.",
+            "v": "4 ta.",
+            "g": "5 ta."
+        },
+        "togri_javob": "g"
+    },
+    {
+        "savol": "7. Axborotni o‘lchov birliklarining o‘sish tartibida joylashtiring?",
+        "javoblar": {
+            "a": "bayt, kilobayt, megabayt, gigabayt.",
+            "b": "bayt, megabayt, kilobayt, gigabayt.",
+            "v": "bit, bayt, gigabayt, kilobayt.",
+            "g": "kilobayt, gigabayt, megabayt, bayt."
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "8. Axborotning kichik o‘lchov birligi?",
+        "javoblar": {
+            "a": "bit.",
+            "b": "kilobayt.",
+            "v": "bayt.",
+            "g": "terabayt."
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "9. O‘zbekiston Respublikasining “Axborotlashtirish to‘g‘risida”gi Qonuni qachon qabul qilingan?",
+        "javoblar": {
+            "a": "2003 yil 11 dekabr 560-II-son.",
+            "b": "2002 yil 12 mart 512-II-son.",
+            "v": "2003 yil 2 mart 486-II-son.",
+            "g": "2001 yil 12 aprel 488-II-son."
+        },
+        "togri_javob": "a"
+    },
+    {
+        "savol": "10. O‘zbekiston Respublikasi Prezidentining PQ-4452-son “Axborot texnologiyalari va kommunikatsiyalarining joriy etilishini nazorat qilish, ularni himoya qilish tizimini takomillashtirishga oid qo‘shimcha chora-tadbirlar to‘g‘risida”gi qarori qachon qabul qilingan?",
+        "javoblar": {
+            "a": "2019 yil 14 sentyabr.",
+            "b": "2019 yil 12 mart.",
+            "v": "2017 yil 12 mart.",
+            "g": "2018 yil 12 mart."
+        },
+        "togri_javob": "a"
+    }
+]
