@@ -19,13 +19,29 @@
             margin: 3px;
         }
 
-        .question {
-            margin-bottom: 30px;
+        .nav-tabs .nav-link.active {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .tab-content {
+            margin-top: 20px;
         }
 
         #resultChart {
             max-width: 600px;
             margin: 20px auto;
+        }
+
+        .navigation-buttons {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        /* Belgilangan savolni tabda ko'rsatish */
+        .answered-tab {
+            background-color: rgb(15, 132, 32) !important;
+            color: rgb(255, 255, 255) !important;
         }
     </style>
 </head>
@@ -34,25 +50,31 @@
 
     <div class="container py-3" id="quiz-content">
         <h2 class="text-center mb-4">Test Yechish</h2>
-        <form id="quizForm">
+        <ul class="nav nav-tabs" id="quizTabs"></ul>
 
-        </form>
-        <div class="text-center">
-            <button class="btn btn-primary mt-3 btn-sm" onclick="submitQuiz()">Natijani ko'rsatish</button>
+        <div class="tab-content" id="quizForm">
+            <!-- Questions will be loaded here dynamically -->
+        </div>
+
+        <div class="navigation-buttons">
+            <button class="btn btn-primary btn-sm" id="prevBtn" onclick="navigate(-1)">Oldingi</button>
+            <button class="btn btn-primary btn-sm" id="nextBtn" onclick="navigate(1)">Keyingi</button>
+            <button class="btn btn-success mt-3 btn-sm" id="submitBtn" onclick="submitQuiz()" style="display: none;">Natijani ko'rsatish</button>
         </div>
     </div>
 
     <div id="resultContainer" class="text-center" style="display: none;">
         <h3 id="resultText"></h3>
         <canvas id="resultChart"></canvas>
-        <button id="downloadBtn" class="btn btn-success btn-sm mt-3" onclick="downloadResults()">Natijani yuklab
-            olish</button>
+        <button id="downloadBtn" class="btn btn-success btn-sm mt-3" onclick="downloadResults()">Natijani yuklab olish</button>
         <a class="btn btn-info btn-sm m-3" id="back" href="/">Qaytish</a>
     </div>
 
     <script>
         document.getElementById('back').style.display = "none";
         let quizData = [];
+        let selectedAnswers = {};
+        let currentTab = 0;
 
         // JSON fayldan savollarni yuklash
         async function loadQuizData() {
@@ -67,31 +89,84 @@
 
         // Savollarni sahifaga yuklash
         function loadQuiz() {
+            const quizTabs = document.getElementById('quizTabs');
             const quizForm = document.getElementById('quizForm');
+
             quizData.forEach((item, index) => {
+                // Tablar yaratish
+                const tab = document.createElement('li');
+                tab.classList.add('nav-item');
+                tab.innerHTML = `
+                    <a class="nav-link ${index === 0 ? 'active' : ''}" id="tab${index}" data-bs-toggle="tab" href="#question${index}" role="tab">
+                        ${index + 1}
+                    </a>
+                `;
+                quizTabs.appendChild(tab);
+
+                // Savolni yaratish
                 const questionBlock = document.createElement('div');
-                questionBlock.classList.add('question');
+                if (index === 0) {
+                    questionBlock.classList.add('tab-pane', 'fade', 'show', 'active');
+                } else {
+                    questionBlock.classList.add('tab-pane', 'fade');
+                }
+                questionBlock.setAttribute('id', `question${index}`);
                 questionBlock.innerHTML = `
                     <h5>${item.savol}</h5>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="q${index + 1}" value="a" id="q${index + 1}a">
+                        <input class="form-check-input" type="radio" name="q${index + 1}" value="a" id="q${index + 1}a" onchange="setAnswer(${index}, 'a')">
                         <label class="form-check-label" for="q${index + 1}a">${item.javoblar.a}</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="q${index + 1}" value="b" id="q${index + 1}b">
+                        <input class="form-check-input" type="radio" name="q${index + 1}" value="b" id="q${index + 1}b" onchange="setAnswer(${index}, 'b')">
                         <label class="form-check-label" for="q${index + 1}b">${item.javoblar.b}</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="q${index + 1}" value="v" id="q${index + 1}v">
+                        <input class="form-check-input" type="radio" name="q${index + 1}" value="v" id="q${index + 1}v" onchange="setAnswer(${index}, 'v')">
                         <label class="form-check-label" for="q${index + 1}v">${item.javoblar.v}</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="q${index + 1}" value="g" id="q${index + 1}g">
+                        <input class="form-check-input" type="radio" name="q${index + 1}" value="g" id="q${index + 1}g" onchange="setAnswer(${index}, 'g')">
                         <label class="form-check-label" for="q${index + 1}g">${item.javoblar.g}</label>
                     </div>
                 `;
                 quizForm.appendChild(questionBlock);
             });
+
+            // Sahifani yangilashda tugmalarni tekshirish
+            updateButtons();
+        }
+
+        // Javobni tanlash va tabni active qilish
+        function setAnswer(questionIndex, answer) {
+            selectedAnswers[questionIndex] = answer;
+
+            // Tabni belgilanganda active qilish va rangini yashil qilish
+            const tab = document.getElementById(`tab${questionIndex}`);
+            tab.classList.add('answered-tab'); // Rangini yashil qilish uchun
+        }
+
+        // Oldinga va orqaga harakatlanish
+        function navigate(direction) {
+            // Hozirgi savoldan chiqish
+            document.getElementById(`question${currentTab}`).classList.remove('show', 'active');
+            document.getElementById(`tab${currentTab}`).classList.remove('active');
+
+            // Keyingi savolga o'tish
+            currentTab += direction;
+
+            // Yangi savolni ko'rsatish
+            document.getElementById(`question${currentTab}`).classList.add('show', 'active');
+            document.getElementById(`tab${currentTab}`).classList.add('active');
+
+            updateButtons();
+        }
+
+        // Tugmalarni tekshirish va yangilash
+        function updateButtons() {
+            document.getElementById('prevBtn').style.display = currentTab === 0 ? 'none' : 'inline-block';
+            document.getElementById('nextBtn').style.display = currentTab === quizData.length - 1 ? 'none' : 'inline-block';
+            document.getElementById('submitBtn').style.display = currentTab === quizData.length - 1 ? 'inline-block' : 'none';
         }
 
         // Test natijalarini hisoblash
@@ -101,8 +176,7 @@
             document.getElementById('back').style.display = "block";
             let correctAnswers = 0;
             quizData.forEach((item, index) => {
-                const selectedAnswer = document.querySelector(`input[name="q${index + 1}"]:checked`);
-                if (selectedAnswer && selectedAnswer.value === item.togri_javob) {
+                if (selectedAnswers[index] === item.togri_javob) {
                     correctAnswers++;
                 }
             });
@@ -143,19 +217,21 @@
             });
         }
 
-        function stringToHash(string) {
-            return string.split('').reduce((hash, char) => {
-                return char.charCodeAt(0) + (hash << 6) + (hash << 16) - hash;
-            }, 0);
-        }
-
         // Natijalarni yuklash
         function downloadResults() {
-            const correctAnswers = document.getElementById('resultText').innerText;
-            const blob = new Blob([correctAnswers], { type: 'text/plain' });
+            let resultString = `To'g'ri javoblar: ${document.getElementById('resultText').innerText}\n\n`;
+            resultString += 'Savollar va javoblar jadvali:\n';
+
+            quizData.forEach((item, index) => {
+                resultString += `Savol ${index + 1}: ${item.savol}\n`;
+                resultString += `Sizning javobingiz: ${selectedAnswers[index] || 'Belgilanmagan'}\n`;
+                resultString += `To'g'ri javob: ${item.togri_javob}\n\n`;
+            });
+
+            const blob = new Blob([resultString], { type: 'text/plain' });
             const link = document.createElement('a');
             link.href = URL.createObjectURL(blob);
-            link.download = stringToHash(Date()) + '.txt';
+            link.download = `test_natijalari_${Date.now()}.txt`;
             link.click();
         }
 
@@ -163,6 +239,8 @@
         window.onload = loadQuizData;
     </script>
 
+    <!-- Bootstrap JS (for tabs functionality) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
