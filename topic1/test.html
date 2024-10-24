@@ -20,7 +20,11 @@
         }
 
         .question {
-            margin-bottom: 30px;
+            display: none;
+        }
+
+        .question.active {
+            display: block;
         }
 
         #resultChart {
@@ -38,7 +42,11 @@
 
         </form>
         <div class="text-center">
-            <button class="btn btn-primary mt-3 btn-sm" onclick="submitQuiz()">Natijani ko'rsatish</button>
+            <button class="btn btn-primary mt-3 btn-sm" id="previousBtn" onclick="previousQuestion()"
+                disabled>Oldingi</button>
+            <button class="btn btn-primary mt-3 btn-sm" id="nextBtn" onclick="nextQuestion()">Keyingi</button>
+            <button class="btn btn-success mt-3 btn-sm" id="submitBtn" onclick="submitQuiz()"
+                style="display:none;">Natijani ko'rsatish</button>
         </div>
     </div>
 
@@ -53,6 +61,7 @@
     <script>
         document.getElementById('back').style.display = "none";
         let quizData = [];
+        let currentQuestion = 0;
 
         // JSON fayldan savollarni yuklash
         async function loadQuizData() {
@@ -71,6 +80,8 @@
             quizData.forEach((item, index) => {
                 const questionBlock = document.createElement('div');
                 questionBlock.classList.add('question');
+                if (index === 0) questionBlock.classList.add('active');
+                questionBlock.setAttribute('id', `question${index}`);
                 questionBlock.innerHTML = `
                     <h5>${item.savol}</h5>
                     <div class="form-check">
@@ -92,6 +103,39 @@
                 `;
                 quizForm.appendChild(questionBlock);
             });
+        }
+
+        // Oldingi savolga o'tish
+        function previousQuestion() {
+            if (currentQuestion > 0) {
+                toggleQuestion(currentQuestion, currentQuestion - 1);
+                currentQuestion--;
+                updateButtons();
+            }
+        }
+
+        // Keyingi savolga o'tish
+        function nextQuestion() {
+            if (currentQuestion < quizData.length - 1) {
+                toggleQuestion(currentQuestion, currentQuestion + 1);
+                currentQuestion++;
+                updateButtons();
+            }
+        }
+
+        // Savollarni o'zgarishi
+        function toggleQuestion(hideIndex, showIndex) {
+            document.getElementById(`question${hideIndex}`).classList.remove('active');
+            document.getElementById(`question${showIndex}`).classList.add('active');
+        }
+
+        // Tugmalarni yangilash
+        function updateButtons() {
+            document.getElementById('previousBtn').disabled = currentQuestion === 0;
+            document.getElementById('nextBtn').style.display = currentQuestion === quizData.length - 1 ? 'none' :
+                'inline-block';
+            document.getElementById('submitBtn').style.display = currentQuestion === quizData.length - 1 ?
+                'inline-block' : 'none';
         }
 
         // Test natijalarini hisoblash
@@ -116,7 +160,8 @@
             const wrongAnswers = totalQuestions - correctAnswers;
 
             // Natijalarni matn ko'rinishida ko'rsatish
-            document.getElementById('resultText').innerText = `To'g'ri javoblar: ${correctAnswers} / ${totalQuestions} (${percentage}%)`;
+            document.getElementById('resultText').innerText =
+                `To'g'ri javoblar: ${correctAnswers} / ${totalQuestions} (${percentage}%)`;
 
             new Chart(ctx, {
                 type: 'pie',
@@ -152,7 +197,9 @@
         // Natijalarni yuklash
         function downloadResults() {
             const correctAnswers = document.getElementById('resultText').innerText;
-            const blob = new Blob([correctAnswers], { type: 'text/plain' });
+            const blob = new Blob([correctAnswers], {
+                type: 'text/plain'
+            });
             const link = document.createElement('a');
             link.href = URL.createObjectURL(blob);
             link.download = stringToHash(Date()) + '.txt';
